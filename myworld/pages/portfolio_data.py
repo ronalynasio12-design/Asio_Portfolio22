@@ -14,7 +14,7 @@ PROFILE = {
     "full_name": "Ronalyn Caabay Asio",
     "title": "Portfolio",
     "email": "ronalynasio12@gmail.com",
-    "github_url": "https://github.com/ronalynasio12-design/Asio_Portfolio.git",
+    "github_url": "https://github.com/ronalynasio12-design/Asio_Portfolio22.git",
     "github_label": "github.com/ronalynasio12-design",
     "university": "Palawan State University - Rizal Campus",
     "resume_url": "",   # e.g. "/static/site/resume.pdf" once you add the file
