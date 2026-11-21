@@ -1,4 +1,4 @@
-/* Francis G. Poliran: portfolio behaviour
+/* Ronalyn Caabay Asio: portfolio behaviour
    1. hero: scroll progress (--p) drives the zoom, blur and drifting tiles
    2. pointer parallax, blur-in reveals, nav highlight, mobile menu
    3. hobby collage, project dialog, contact form                       */

@@ -5,24 +5,24 @@ Projects can ALSO be managed from the Django admin (/admin/ -> Projects).
 If the database has any projects, they replace the PROJECTS list below.
 
 Images live in pages/static/site/img/. To use your own hobby photos, save them with
-the same names (hobby-boxing.png, hobby-badminton.png, hobby-gym.png). Transparent
+the same names (hobby-watching.png, hobby-volleyball.png, hobby-eating.png). Transparent
 PNG cut-outs look best because the three photos overlap each other.
 """
 
 PROFILE = {
-    "name": "Francis",
-    "full_name": "Francis G. Poliran",
+    "name": "RoNa",
+    "full_name": "Ronalyn Caabay Asio",
     "title": "Portfolio",
-    "email": "francispoliran437@gmail.com",
-    "github_url": "https://github.com/renceCoding/portfolio-project.git",
-    "github_label": "github.com/renceCoding",
-    "university": "Palawan State University",
+    "email": "ronalynasio12@gmail.com",
+    "github_url": "https://github.com/ronalynasio12-design/Asio_Portfolio.git",
+    "github_label": "github.com/ronalynasio12-design",
+    "university": "Palawan State University - Rizal Campus",
     "resume_url": "",   # e.g. "/static/site/resume.pdf" once you add the file
 }
 
 HERO = {
     "headline": ["Designing the web,", "simply beautiful."],
-    "intro": "Hi, I'm Francis, a website and UI designer who also writes the code.",
+    "intro": "Hi, I'm RoNa, a website and UI designer who also writes the code.",
     "card_left": {
         "title": "User-friendly by default",
         "text": "Clean, visually appealing websites that are easy to use.",
@@ -35,7 +35,7 @@ HERO = {
 }
 
 ABOUT = {
-    "heading": "Hi, I'm Francis.",
+    "heading": "Hi, I'm RoNa.",
     "paragraphs": [
         "I am a designer, proficient in Figma and Photoshop, and also skilled in video editing. "
         "In addition to my design skills, I am a passionate developer with a strong commitment to continuous learning.",
@@ -45,7 +45,7 @@ ABOUT = {
     "chips": ["Website designer", "UI designer", "Developer"],
     # (label, value); a value starting with "mailto:" or "http" becomes a link in the template
     "facts": [
-        ("Studying at", "Palawan State University"),
+        ("Studying at", "Palawan State University - Rizal Campus"),
         ("Focus", "Website and UI design"),
         ("Design tools", "Figma, Photoshop, video editing"),
         ("Build with", "Django, JavaScript, HTML, CSS"),
@@ -54,11 +54,11 @@ ABOUT = {
 
 HOBBIES = {
     "heading": "Away from the screen",
-    "text": "When I'm not designing or coding, you'll find me boxing, playing badminton or training at the gym.",
+    "text": "When I'm not designing or coding, you'll find me watching TV, playing volleyball or trying out new food.",
     "items": [
-        {"id": "boxing", "label": "Boxing", "image": "site/img/hobby-boxing.png"},
-        {"id": "badminton", "label": "Badminton", "image": "site/img/hobby-badminton.png"},
-        {"id": "gym", "label": "Gym", "image": "site/img/hobby-gym.png"},
+        {"id": "volleyball", "label": "Volleyball", "image": "site/img/hobby-volleyball.png"},
+        {"id": "watching", "label": "Watching TV", "image": "site/img/hobby-watching.png"},
+        {"id": "eating", "label": "Eating", "image": "site/img/hobby-eating.png"},
     ],
 }
 

@@ -1,4 +1,4 @@
-# Francis G. Poliran: portfolio (Django)
+# Ronalyn Caabay Asio: portfolio (Django)
 
 A single scrolling page: your portrait zooms in as you scroll, blurred glossy 3D tiles drift
 past, then the About / Work / Toolkit / Contact sheet slides over the top.
@@ -24,11 +24,11 @@ All images live in `pages/static/site/img/`. Replace a file and keep the same na
 
 | File                  | Used for                                              |
 | --------------------- | ----------------------------------------------------- |
-| `hero.webp`           | Big first-page portrait (transparent cut-out)         |
-| `fullbody.webp`       | Full-body photo in About (transparent cut-out)        |
-| `hobby-boxing.png`    | Hobby collage (placeholder now, transparent PNG best) |
-| `hobby-badminton.png` | Hobby collage (placeholder now)                       |
-| `hobby-gym.png`       | Hobby collage (placeholder now)                       |
+| `hero.png`           |  Full-body photo in About (transparent cut-out)         |
+| `fullbody.png`       |  Big first-page portrait (transparent cut-out)        |
+| `hobby-watching.png`    | Hobby collage (placeholder now, transparent PNG best) |
+| `hobby-volleyball.png` | Hobby collage (placeholder now)                       |
+| `hobby-eating.png`       | Hobby collage (placeholder now)                       |
 
 If you use a different file name or type, update the paths in `pages/portfolio_data.py`
 (`HOBBIES`) or the `<img>` tags in `templates/home.html`.

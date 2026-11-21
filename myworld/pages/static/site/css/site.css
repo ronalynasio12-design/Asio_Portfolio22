@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Francis G. Poliran: portfolio
+   Ronalyn Caabay Asio: portfolio
    Light paper, serif display type, frosted glass, blurred glossy 3D tiles.
    Depth of field is Gaussian blur: it grows with distance and with scroll.
    ========================================================================== */
@@ -189,9 +189,10 @@ a { color: inherit; }
   filter: blur(2.5px) drop-shadow(0 24px 22px rgba(30,30,70,.25)); opacity: .8;
   transition: transform .7s var(--ease), filter .6s var(--ease), opacity .6s var(--ease);
 }
-.hobby-boxing { --w: 52%; --l: 2%; z-index: 3; }
-.hobby-badminton { --w: 40%; --l: 34%; --b: 16%; z-index: 1; }
-.hobby-gym { --w: 48%; --l: 52%; z-index: 2; }
+.hobby-eating { --w: 32%; --l: 2%; z-index: 3; }
+.hobby-volleyball { --w: 40%; --l: 34%; --b: 16%; z-index: 1; }
+.hobby-watching { --w: 32%; --l: 52%; z-index: 2; 
+}
 .hobby.active { filter: blur(0) drop-shadow(0 30px 26px rgba(30,30,70,.32)); opacity: 1; z-index: 6; transform: translateY(-2%) scale(1.04); }
 .hobby-label { position: absolute; z-index: 7; left: 50%; bottom: -.6rem; transform: translateX(-50%); padding: .5rem 1.2rem; border-radius: 999px; font-weight: 500; }
 
